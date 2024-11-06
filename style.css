@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 767px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* start header */
+.header {
+  padding-top: 30px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .container .logo {
+  width: 120px;
+}
+
+.header .container ul {
+  list-style: none;
+  display: flex;
+}
+
+.header .container ul li {
+  margin-left: 50px;
+}
+
+.header .container ul li a {
+  text-decoration: none;
+  color: hsl(243, 46%, 39%);
+}
+
+/* end header */
+/* start section */
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section .container .image {
+  width: 600px;
+}
+
+.section .container .text h2 {
+  font-size: 40px;
+  width: 608px;
+  color: hsl(243, 87%, 12%);
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.section .container .text p {
+  color: hsl(243, 87%, 12%);
+  width: 510px;
+}
+
+.section .container form input {
+  padding: 5px 30px;
+}
+
+.section form a {
+  margin-left: 5px;
+  text-decoration: none;
+  background-color: #6b9bff;
+  color: white;
+  padding: 5px 30px;
+  text-align: center;
+}
+
+/* end section */
+/* start next section */
+.next-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f9f8fe;
+}
+
+.next-section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.next-section .container .svg {
+  width: 500px;
+}
+
+.next-section .container .text .h h2 {
+  font-size: 30px;
+  color: #2b2858;
+}
+
+.next-section .container .text .h p {
+  color: #2b2858;
+  font-size: 14px;
+  width: 514px;
+}
+
+.next-section .container .text a {
+  text-decoration: none;
+  color: #98eee3;
+  border-bottom: 2px solid #98eee3;
+}
+
+.next-section .container .p {
+  background-color: white;
+  margin-top: 3rem;
+  padding: 30px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.next-section .container .p .image {
+  display: flex;
+  align-items: center;
+}
+
+.next-section .container .p .image img {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.next-section .container .p .image h2 {
+  font-size: 14px;
+  margin-bottom: 5px;
+  line-height: 0;
+  margin-left: 10px;
+}
+
+.next-section .container .p p {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.next-section .container .text2 {
+  margin-bottom: -9px;
+}
+
+/* end next section */
+/* start footer one */
+.footerone {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #575989;
+}
+
+.footerone .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerone .text h2 {
+  color: white;
+  font-weight: 700;
+}
+
+.footerone .text p {
+  width: 450px;
+  color: white;
+  font-weight: normal;
+}
+
+.footerone form input {
+  width: 400px;
+  padding: 5px 30px;
+}
+
+.footerone form a {
+  text-decoration: none;
+  background-color: #6b9bff;
+  padding: 5px 30px;
+  color: white;
+}
+
+.footerone form p {
+  font-size: 12px;
+  margin-top: 2px;
+  color: white;
+}
+
+.footertwo {
+  background-color: #07043b;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footertwo .container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 2fr repeat(3, 1fr);
+}
+
+.footertwo .container .col1 > img {
+  padding-bottom: 10px;
+}
+
+.footertwo .container .col1 p {
+  display: inline-block;
+  margin-left: 5px;
+  color: white;
+}
+
+.footertwo .container ul {
+  list-style: none;
+
+}
+
+.footertwo .container li {
+  margin-bottom: 20px;
+}
+
+.footertwo .container a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footertwo .container .col2 ul {
+  margin-top: 54px;
+}
+
+.footertwo .container i {
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #07043b;
+}
+
+/* end footer two */
